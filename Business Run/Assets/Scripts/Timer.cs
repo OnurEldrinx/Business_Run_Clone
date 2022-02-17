@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
         if (GameManager.Instance.isGameStarted) {
 
 
-            if (counter > 0)
+            if (counter > 0 && !GameManager.Instance.isFailed && !GameManager.Instance.isSucceed)
             {
 
                 counter -= Time.deltaTime;
@@ -34,13 +34,18 @@ public class Timer : MonoBehaviour
             }
             else
             {
-
-                GameManager.Instance.isFailed = true;
+                if(!GameManager.Instance.isSucceed)
+                    GameManager.Instance.isFailed = true;
 
 
             }
 
-            
+            if(counter > time)
+            {
+
+                counter = time;
+
+            }
 
         }
 

@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     public Image YouAreFiredScreen;
     public Button RestartButton;
     public Button NextButton;
+    public TextMeshProUGUI AmazingText;
 
     public static UIManager Instance;
 
@@ -41,6 +42,9 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        UIManager.Instance.CoinScoreText.text = GameManager.Instance.coinScore.ToString();
+
+
     }
 }

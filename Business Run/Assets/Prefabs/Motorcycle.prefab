@@ -93,13 +93,14 @@ GameObject:
   - component: {fileID: 1276310117903617362}
   - component: {fileID: 5315441000498531000}
   - component: {fileID: 1922272100619576696}
+  - component: {fileID: 332337923}
   m_Layer: 0
   m_Name: Motorcycle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1276310117903617362
 Transform:
   m_ObjectHideFlags: 0
@@ -107,9 +108,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3565845734643658135}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4244813, y: 0.3150624, z: -1.518801}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 6896041576292002122}
   - {fileID: 5801808207945581523}
@@ -168,6 +169,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &332337923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3565845734643658135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5481ef13247e3740b482c0b95adfecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 0
+  speed: 0
+  type: 
 --- !u!1 &6523536986061149615
 GameObject:
   m_ObjectHideFlags: 0

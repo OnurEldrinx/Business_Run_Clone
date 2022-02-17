@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 64884856028616455}
   - component: {fileID: 596780608479027863}
   - component: {fileID: 2765700769155456281}
+  - component: {fileID: 1718914142}
   m_Layer: 0
   m_Name: Bicycle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &64884856028616455
 Transform:
   m_ObjectHideFlags: 0
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346390175522989794}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.4856701, y: 0.20481825, z: 0.44034612}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4999998, y: 2.5, z: 2.4999998}
   m_Children:
   - {fileID: 465462865414851811}
   - {fileID: 7973702003395285474}
@@ -87,6 +88,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1718914142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346390175522989794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4697efc3fe4d746a1b41a016ad284c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 0
+  speed: 0
+  type: 
 --- !u!1 &7197366054160576744
 GameObject:
   m_ObjectHideFlags: 0

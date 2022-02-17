@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
+  - Time+
+  - Time-
+  - Worker
+  - Barrier
+  - Hole
   layers:
   - Default
   - TransparentFX

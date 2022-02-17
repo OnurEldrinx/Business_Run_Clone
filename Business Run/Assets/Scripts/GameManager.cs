@@ -8,9 +8,11 @@ public class GameManager : MonoBehaviour
 
     public bool isGameStarted;
     public bool isFailed;
+    public bool isSucceed;
 
     public static GameManager Instance;
 
+    public int coinScore;
 
     private void Awake()
     {
@@ -46,7 +48,7 @@ public class GameManager : MonoBehaviour
 
             UIManager.Instance.YouAreFiredScreen.gameObject.SetActive(true);
             UIManager.Instance.RestartButton.gameObject.SetActive(true);
-            isFailed = false;
+
         }
 
     }
@@ -69,6 +71,13 @@ public class GameManager : MonoBehaviour
     {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
+
+    public void NextLevel()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 
