@@ -547,12 +547,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1071,7 +1071,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207035687}
-  m_LocalRotation: {x: 0.03993685, y: -0.00000001719265, z: 6.8716866e-10, w: 0.9992022}
+  m_LocalRotation: {x: 0.039936833, y: 0.000000017192654, z: -6.871684e-10, w: 0.9992022}
   m_LocalPosition: {x: 0, y: 2.34, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2112,6 +2112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Motorcycle
       objectReference: {fileID: 0}
+    - target: {fileID: 3565845734643658135, guid: d5a5b166f69ef1d4e8711b28a80bff65, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a5b166f69ef1d4e8711b28a80bff65, type: 3}
 --- !u!1 &517052269
@@ -2986,7 +2990,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688075773}
-  m_LocalRotation: {x: 0.03993685, y: -0.00000001719265, z: 6.8716866e-10, w: 0.9992022}
+  m_LocalRotation: {x: 0.039936833, y: 0.000000017192654, z: -6.871684e-10, w: 0.9992022}
   m_LocalPosition: {x: 0, y: 2.34, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
