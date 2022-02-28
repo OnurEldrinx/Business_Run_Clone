@@ -138,8 +138,15 @@ public class PlayerController : MonoBehaviour
         {
 
             GameManager.Instance.isSucceed = true;
-            activeVehicle.SetActive(false);
-            activeVehicle = null;
+
+            if(activeVehicle != null)
+            {
+
+                activeVehicle.SetActive(false);
+                activeVehicle = null;
+
+            }
+            
             GetComponent<Animator>().Play("Armature|Dance");
             UIManager.Instance.AmazingText.gameObject.SetActive(true);
             UIManager.Instance.NextButton.gameObject.SetActive(true);
